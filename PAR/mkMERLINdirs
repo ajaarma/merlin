@@ -1,0 +1,287 @@
+mkdir alloutput
+dos2unix *.1
+mkdir input1
+mv *.1 input1
+cp parametric.model input1
+cp runwipemerlin input1
+cd input1
+mv map.1 mapfile.map
+mv names.1 datfile.dat
+mv pedin.1 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output1
+cd ..
+dos2unix *.2
+mkdir input2
+mv *.2 input2
+cp parametric.model input2
+cp runwipemerlin input2
+cd input2
+mv map.2 mapfile.map
+mv names.2 datfile.dat
+mv pedin.2 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output2
+cd ..
+dos2unix *.3
+mkdir input3
+mv *.3 input3
+cp parametric.model input3
+cp runwipemerlin input3
+cd input3
+mv map.3 mapfile.map
+mv names.3 datfile.dat
+mv pedin.3 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output3
+cd ..
+dos2unix *.4
+mkdir input4
+mv *.4 input4
+cp parametric.model input4
+cp runwipemerlin input4
+cd input4
+mv map.4 mapfile.map
+mv names.4 datfile.dat
+mv pedin.4 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output4
+cd ..
+dos2unix *.5
+mkdir input5
+mv *.5 input5
+cp parametric.model input5
+cp runwipemerlin input5
+cd input5
+mv map.5 mapfile.map
+mv names.5 datfile.dat
+mv pedin.5 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output5
+cd ..
+dos2unix *.6
+mkdir input6
+mv *.6 input6
+cp parametric.model input6
+cp runwipemerlin input6
+cd input6
+mv map.6 mapfile.map
+mv names.6 datfile.dat
+mv pedin.6 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output6
+cd ..
+dos2unix *.7
+mkdir input7
+mv *.7 input7
+cp parametric.model input7
+cp runwipemerlin input7
+cd input7
+mv map.7 mapfile.map
+mv names.7 datfile.dat
+mv pedin.7 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output7
+cd ..
+dos2unix *.8
+mkdir input8
+mv *.8 input8
+cp parametric.model input8
+cp runwipemerlin input8
+cd input8
+mv map.8 mapfile.map
+mv names.8 datfile.dat
+mv pedin.8 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output8
+cd ..
+dos2unix *.9
+mkdir input9
+mv *.9 input9
+cp parametric.model input9
+cp runwipemerlin input9
+cd input9
+mv map.9 mapfile.map
+mv names.9 datfile.dat
+mv pedin.9 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output9
+cd ..
+dos2unix *.10
+mkdir input10
+mv *.10 input10
+cp parametric.model input10
+cp runwipemerlin input10
+cd input10
+mv map.10 mapfile.map
+mv names.10 datfile.dat
+mv pedin.10 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output10
+cd ..
+dos2unix *.11
+mkdir input11
+mv *.11 input11
+cp parametric.model input11
+cp runwipemerlin input11
+cd input11
+mv map.11 mapfile.map
+mv names.11 datfile.dat
+mv pedin.11 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output11
+cd ..
+dos2unix *.12
+mkdir input12
+mv *.12 input12
+cp parametric.model input12
+cp runwipemerlin input12
+cd input12
+mv map.12 mapfile.map
+mv names.12 datfile.dat
+mv pedin.12 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output12
+cd ..
+dos2unix *.13
+mkdir input13
+mv *.13 input13
+cp parametric.model input13
+cp runwipemerlin input13
+cd input13
+mv map.13 mapfile.map
+mv names.13 datfile.dat
+mv pedin.13 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output13
+cd ..
+dos2unix *.14
+mkdir input14
+mv *.14 input14
+cp parametric.model input14
+cp runwipemerlin input14
+cd input14
+mv map.14 mapfile.map
+mv names.14 datfile.dat
+mv pedin.14 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output14
+cd ..
+dos2unix *.15
+mkdir input15
+mv *.15 input15
+cp parametric.model input15
+cp runwipemerlin input15
+cd input15
+mv map.15 mapfile.map
+mv names.15 datfile.dat
+mv pedin.15 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output15
+cd ..
+dos2unix *.16
+mkdir input16
+mv *.16 input16
+cp parametric.model input16
+cp runwipemerlin input16
+cd input16
+mv map.16 mapfile.map
+mv names.16 datfile.dat
+mv pedin.16 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output16
+cd ..
+dos2unix *.17
+mkdir input17
+mv *.17 input17
+cp parametric.model input17
+cp runwipemerlin input17
+cd input17
+mv map.17 mapfile.map
+mv names.17 datfile.dat
+mv pedin.17 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output17
+cd ..
+dos2unix *.18
+mkdir input18
+mv *.18 input18
+cp parametric.model input18
+cp runwipemerlin input18
+cd input18
+mv map.18 mapfile.map
+mv names.18 datfile.dat
+mv pedin.18 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output18
+cd ..
+dos2unix *.19
+mkdir input19
+mv *.19 input19
+cp parametric.model input19
+cp runwipemerlin input19
+cd input19
+mv map.19 mapfile.map
+mv names.19 datfile.dat
+mv pedin.19 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output19
+cd ..
+dos2unix *.20
+mkdir input20
+mv *.20 input20
+cp parametric.model input20
+cp runwipemerlin input20
+cd input20
+mv map.20 mapfile.map
+mv names.20 datfile.dat
+mv pedin.20 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output20
+cd ..
+dos2unix *.21
+mkdir input21
+mv *.21 input21
+cp parametric.model input21
+cp runwipemerlin input21
+cd input21
+mv map.21 mapfile.map
+mv names.21 datfile.dat
+mv pedin.21 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output21
+cd ..
+dos2unix *.22
+mkdir input22
+mv *.22 input22
+cp parametric.model input22
+cp runwipemerlin input22
+cd input22
+mv map.22 mapfile.map
+mv names.22 datfile.dat
+mv pedin.22 pedfile.ped
+./runwipemerlin
+awk '/^       POSIT/,/^Graphical/' output | sed '/^$/d' > tempoutput
+cp tempoutput ../alloutput/output22
+cd ..

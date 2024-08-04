@@ -1,0 +1,3 @@
+tab separted columns containign gentotype data for all the individuals of a family pedigree
+
+

@@ -1,0 +1,14 @@
+Kivitscompl	KIV_000013	0	0	1	2	no	obligate carrier
+Kivitscompl	KIV_000014	0	0	2	0	no	spouse
+Kivitscompl	KIV_123595	KIV_000013	KIV_000014	1	2	yes	obligate carrier
+Kivitscompl	KIV_000015	0	0	2	0	no	spouse
+Kivitscompl	KIV_000016	KIV_123595	KIV_000015	1	2	no	affected
+Kivitscompl	KIV_123596	KIV_123595	KIV_000015	2	2	yes	affected
+Kivitscompl	KIV_123597	KIV_123595	KIV_000015	1	2	yes	affected
+Kivitscompl	KIV_123598	KIV_123595	KIV_000015	2	1	yes	unaffected
+Kivitscompl	KIV_123599	KIV_123595	KIV_000015	2	1	yes	unaffected
+Kivitscompl	KIV_125506	KIV_123595	KIV_000015	1	2	yes	affected
+Kivitscompl	KIV_000017	0	0	2	0	no	spouse
+Kivitscompl	KIV_130562	KIV_000016	KIV_000017	1	2	yes	affected
+Kivitscompl	KIV_000018	0	0	2	0	no	spouse
+Kivitscompl	KIV_123610	KIV_125506	KIV_000018	2	1	yes	unaffected

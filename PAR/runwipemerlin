@@ -1,0 +1,3 @@
+merlin -d datfile.dat -m mapfile.map -p pedfile.ped --megabytes 4000 --bits 27 --swap --error
+pedwipe -d datfile.dat -p pedfile.ped
+merlin -d wiped.dat -p wiped.ped -m mapfile.map --model parametric.model --megabytes 4000 --swap --grid 1 --bits 27 > output

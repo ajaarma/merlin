@@ -1,0 +1,17 @@
+pedigree ID	Ind ID numeriek	Father	mother	gender  (male=1, female=2)	"affection status (affected = 2; not-affected = 1; unknown = 0)"	DNA available	Remark
+Kivitscompl	KIV_000011	0	0	1	2	no	obligate carrier
+Kivitscompl	KIV_000012	0	0	2	0	no	spouse
+Kivitscompl	KIV_118846	KIV_000011	KIV_000012	2	2	yes	affected
+Kivitscompl	KIV_118841	KIV_000011	KIV_000012	1	1	yes	unaffected
+Kivitscompl	KIV_118847	KIV_000011	KIV_000012	2	1	yes	unaffected
+Kivitscompl	KIV_000013	KIV_000011	KIV_000012	1	2	no	obligate carrier
+Kivitscompl	KIV_000014	0	0	2	0	no	spouse
+Kivitscompl	KIV_118845	KIV_000013	KIV_000014	2	2	yes	affected
+Kivitscompl	KIV_118842	KIV_000013	KIV_000014	1	1	yes	unaffected
+Kivitscompl	KIV_118848	KIV_000013	KIV_000014	2	1	yes	unaffected
+Kivitscompl	KIV_118849	KIV_000013	KIV_000014	2	1	yes	unaffected
+Kivitscompl	KIV_000015	0	0	1	0	no	spouse
+Kivitscompl	KIV_123594	KIV_000015	KIV_118845	1	1	yes	unaffected
+Kivitscompl	KIV_118843	KIV_000015	KIV_118845	1	1	yes	unaffected
+Kivitscompl	KIV_118844	KIV_000015	KIV_118845	1	2	yes	affected
+Kivitscompl	KIV_118840	KIV_000015	KIV_118845	1	1	yes	unaffected
